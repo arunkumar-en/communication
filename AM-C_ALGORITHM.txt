@@ -1,0 +1,25 @@
+Algorithm:
+
+1.Start
+2.Read Ec
+3.Assign Wc=300,Ws=15.
+4.Read m,Ec,Wc,Ws
+5.For t varying from 0 to 8999
+Do the following
+a).Compute grx=10+325*t
+b).Compute y=Ec*cos(Wc*t)
+c).Compute gry=100-y*t
+d).Draw the coordinates
+6. For t varying from 0 to 8999
+Do the following
+a).Compute grx=10+325*t
+b).Compute y=m*Ec*cos(Ws*t)
+c).Compute gry=350-y*t
+d).Draw the coordinates
+7.For t varying from 6 to 8699
+Do the following
+a).Compute grx=350+325*t
+b).Compute y=Ec*(1+m*cos(cosWs*t)*cos(Wc)+t)
+c).Compute gry=350-y*t
+d).Draw the coordinates
+8.Stop
